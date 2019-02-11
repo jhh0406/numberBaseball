@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>숫자야구 게임</title>
+    <style>
+      p {
+        border-style: double;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" style="display: none;">
+      <input type="text"  class="guess" placeholder="숫자를 입력해주세요">
+      <button type="button" class="btn">입력</button>
+      <button type="button" class="btn2" style="display: none;"></button>
+      <button type="button" onclick="window.location.reload()">재시작</button>
+    </form>
+    <div class="logList"></div>
+    <script src="bb.js"></script>
+  </body>
+</html>
